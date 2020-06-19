@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c54d9432c0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Kelvin Lester | Software Developer</title>
+    </head>
+    <body>
+        <!--Start with a nav and nav bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#project.html">My Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html#skills">My Skills</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          </div>
+    <div class="jumbotron my-3 jumbo-background">
+            <div class = "container">
+            <h1 class="display-5 text-warning font-weight-bold">Kelvin Lester | Software Developer</h1>
+            <p class="text-light">Hello, my name is <strong>Kelvin Lester</strong> and I am a full stack developer located in Atlanta, GA. My passion is taking real world challenges and solving them by writing code. When I am not coding, I love cooking, spending time with family and friends and gardening!!</p>
+            </div>
+    </div>
+<!--Create containers for other content-->
+<div class="container">
+    <h1 id="recent-projects" class="text-center my-5 py-5 text-uppercase font-weight-bolder bungee">My Projects</h1>
+<!--Example row of columns-->
+<div class="row my-2">
+    <div class="col-md-6">
+        <img src="images/TwitchLyfe.jpg" class="img-fluid" alt="TwitchLyfe image" style="width:1500px; height: 360px">
+        <h3> TwitchLyft App (Front-End Project)</h3>
+        <p>Site visitors can see the top 3 random streamers on the home page when the page loads or refreshes. </p>
+        <p>Visitors can also see top 10 games being streamed for the day and search for games based on game name, genre or release dates. </p>
+        <p>Site visitors can see the top video on demand clips being streamed for the day.</p>
+        <p>This application is written in JavaScript and is built with Twitch's API to pull data from Wegmans. An Axios REST call is use to GET data from the API. Once the data is fetched, it is rendered to the perspecctive HTML page.  </p>
+        <p> Bootstrap and CSS were used  for styling & Twitch's Non-Interactive Inline Frames for Live Streams and VODs. </p>
+        <p><a class="btn btn-secondary" href="https://github.com/klester01/Team_Kel_Twitch" role="button">GITHUB Twitch Repository &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="http://twitchstreamlyfe.com.s3-website.us-east-1.amazonaws.com/index.html" role="button">View TwitchLyfe App &raquo;</a></p>
+    </div>
+    
+    <div class="col-md-6">
+       <img src="images/Project_logo.png"  class="img-fluid" alt="PIR image" style="width:1500px; height: 360px">
+       <h3> Price-Is-Right-Game-App (Full-Stack Project)</h3>
+       <p>The Price is Right Game is a web app designed for users to guess the right price of a product shown in the GUI. 
+        The game was designed to give points for the right answers.</p>
+        <p>Once logged in, click on the start game button from your dashboard.  
+           An item picture, description, and 4 buttons with prices will be shown. The objective is to click on the button with the correct price. When you would like to finish, click on the End Game button.  The total questions, number correct, number incorrect and average percentage will appear in bottom left of the screen. The score is based on the results of the last finished game.</p>
+       <p>This application was built using JavaScript, Bootstrap, HTML, CSS, API, Express, Express-flash, Express-session, PassportJS, Passport-local, Lodash, PostgresSQL, Sequelize, EJS, dotenv, MethodOveride & BCrypt. </p>
+       <p><a class="btn btn-secondary" href="https://github.com/klester01/price-is-right-app" role="button">GITHUB Price-Is-Right-Game-App Repository &raquo;</a></p>
+       <p><a class="btn btn-secondary" href="https://price-right.herokuapp.com/login" role="button">View Price Is Right Game App &raquo;</a></p>
+   </div>
+
+   <hr>
+
+</div>
+</div>
+<div id="footer">
+    <p id="footerText" class="text-center"> &copy; Copyright Kel 2020</p>
+</div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="" async defer></script>
+    </body>
+</html>
